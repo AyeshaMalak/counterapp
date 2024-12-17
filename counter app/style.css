@@ -1,0 +1,107 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgba(0, 0, 0, 0.171) ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Counter Container */
+.counter-container {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    padding: 40px 30px; /* Added more padding */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 20px; /* Added margin on the sides */
+}
+
+/* Image at the top */
+.counter-image {
+    width: 150px; /* Make the image smaller */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Counter Title */
+.counter-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 0; /* Remove any default margin at the top */
+}
+
+/* Counter Display */
+.counter-display {
+    font-size: 72px;
+    font-weight: bold;
+    color: #3498db;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    width: 150px;
+    margin: 0 auto;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Fixed gap between buttons */
+    margin-top: 20px; /* Added margin to the top */
+}
+
+/* Counter Buttons */
+.counter-button {
+    font-size: 24px;
+    padding: 15px 25px; /* Adjusted padding */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    margin: 0 10px; /* Add spacing between buttons */
+}
+
+/* Button Styles */
+#increaseButton {
+    background-color: #2ecc71;
+    color: white;
+}
+
+#decreaseButton {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#resetButton {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Button Hover Effects */
+.counter-button:hover {
+    opacity: 0.8;
+}
+
+/* Reset Button Special Styling */
+.reset-button {
+    background-color: #f39c12;
+}
+
+.reset-button:hover {
+    background-color: #e67e22;
+}
+
